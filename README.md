@@ -1,170 +1,211 @@
-Hero Section
+<h1 align="center">Hi 👋, I'm Waqar Ali</h1>
+<h3 align="center">Software Engineering Student | Junior Full-Stack Developer | Django Backend Developer</h3>
 
-Waqar Ali
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Python+Developer;Django+%7C+Django+REST+Framework;React.js+Developer;Flutter+Developer;Backend+Developer;REST+API+Developer;Always+Learning+New+Technologies" />
+</p>
 
-Junior Full-Stack Developer | Software Engineering Student
+---
 
-Building scalable web and mobile applications using Python, Django, Django REST Framework, React.js, Flutter, SQL, and Git.
+## 👨‍💻 About Me
 
-I develop secure REST APIs, backend systems, and responsive user interfaces while continuously learning modern software development practices.
+🎓 Software Engineering Student
 
-Buttons
+💻 Junior Full-Stack Developer
 
-Download CV
-View Projects
-Contact Me
-About Me
-About
+🚀 Passionate about Backend Development using Python & Django
 
-I am a Software Engineering student with practical experience developing full-stack web and mobile applications. My expertise includes Python, Django, Django REST Framework, React.js, Flutter, SQL, and Git.
+🔭 Currently building Full Stack Web Applications
 
-I enjoy building secure backend systems, designing RESTful APIs, implementing authentication, and developing responsive user interfaces. During my internship as a Django Backend Developer, I worked on backend development, API design, database management, and collaborative software development using Git and GitHub.
+🌱 Learning React.js, Flutter & Advanced Django REST Framework
 
-I am passionate about writing clean, maintainable code and solving real-world problems through technology. I am currently seeking opportunities as a Software Engineer, Backend Developer, Python Developer, or Full-Stack Developer.
+💡 Interested in Software Engineering, Backend Development & REST APIs
 
-Skills
-Programming Languages
-Python
-JavaScript
-SQL
-Dart
-Backend
-Django
-Django REST Framework
-REST API Development
-Authentication
-CRUD Operations
-Django ORM
-Frontend
-React.js
-Flutter
-HTML5
-CSS3
-Bootstrap
-Database
-SQLite
-Django ORM
-Tools
-Git
-GitHub
-Postman
-VS Code
-Android Studio
-PyCharm
-Experience
-Django Backend Developer Intern
+📍 Hyderabad / Jamshoro, Sindh, Pakistan
 
-Technify
+📫 **Email:** waqaralisoomro915@gmail.com
 
-Responsibilities
-Developed backend applications using Python and Django.
-Designed secure RESTful APIs using Django REST Framework.
-Implemented CRUD functionality.
-Developed authentication and authorization features.
-Worked with Django ORM for database management.
-Fixed bugs and optimized application performance.
-Collaborated using Git and GitHub.
-ICT Specialist
+---
 
-Mehran University Grammar School
+## 🚀 Tech Stack
 
-Provided ICT support.
-Improved system performance.
-Coordinated testing and technical validation.
-Assisted staff with technical solutions.
-Senior IT Teacher (ICT)
+### Languages
 
-Ridge View School
+<p>
+<img src="https://skillicons.dev/icons?i=python,javascript,dart,html,css,mysql" />
+</p>
 
-Taught ICT and Computer Science.
-Conducted practical laboratory sessions.
-Designed lesson plans and assessments.
-Guided students in programming fundamentals.
-Projects
-Arain Cloth Brand
+### Backend
 
-Tech Stack
+<p>
+<img src="https://skillicons.dev/icons?i=django" />
+</p>
 
-Python • Django • Django REST Framework • React.js
+- Django
+- Django REST Framework
+- REST APIs
+- Authentication
+- CRUD Operations
+- Django ORM
 
-Features
-Secure Authentication
-REST APIs
-CRUD Operations
-Product Management
-Database Management
-Responsive UI
-Django ORM
-Personal Portfolio Website
+### Frontend
 
-Tech Stack
+<p>
+<img src="https://skillicons.dev/icons?i=react,flutter,bootstrap" />
+</p>
 
-React.js
+### Database
 
-Features
-Responsive Design
-Reusable Components
-Modern UI
-Smooth Navigation
-Contact Form
-Library Management System
+- SQLite
+- Django ORM
 
-Tech Stack
+### Tools
 
-Python • Django • React.js
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,pycharm,androidstudio" />
+</p>
 
-Features
-Student Management
-Book Management
-Authentication
-REST APIs
-CRUD Operations
-SQLite Database
-Education
-Bachelor of Science in Software Engineering (BSSE)
+---
 
-University of Sindh, Jamshoro
+# 💼 Experience
 
-Software Engineering Student
+### Django Backend Developer Intern
 
-Certifications
-Cisco Networking Academy — Python Essentials 1
-Cisco Networking Academy — Networking Basics
-IBM SkillsBuild — Explore Emerging Technologies
-Google Cloud Skills Boost
-Django Web Development — Technify
-Flutter Mobile App Development — Technify
-Open to Opportunities
+🏢 Technify
 
-I am actively looking for opportunities as:
+- Developed backend applications using Python & Django.
+- Built secure REST APIs using Django REST Framework.
+- Implemented CRUD operations and Authentication.
+- Worked with Django ORM.
+- Improved application performance.
+- Used Git & GitHub for version control.
 
-Software Engineer
-Backend Developer
-Python Developer
-Django Developer
-Django REST Framework Developer
-Full-Stack Developer
-React.js Developer
-Contact
+---
 
-Waqar Ali
+### ICT Specialist
 
-📍 Jamshoro, Sindh, Pakistan
+🏢 Mehran University Grammar School
 
-📧 your.email@example.com
+- ICT Support
+- Technical Validation
+- System Performance Improvements
 
-💼 LinkedIn
+---
 
-💻 GitHub
+### Senior IT Teacher (ICT)
 
+🏢 Ridge View School
+
+- Computer Science & ICT
+- Practical Labs
+- Programming Fundamentals
+
+---
+
+# 🚀 Featured Projects
+
+## 🛍️ Arain Cloth Brand
+
+**Python | Django | Django REST Framework | React.js**
+
+✔ Authentication
+
+✔ REST APIs
+
+✔ CRUD Operations
+
+✔ Django ORM
+
+✔ SQLite
+
+✔ Responsive UI
+
+---
+
+## 📚 Library Management System
+
+**Python | Django | React.js**
+
+✔ Authentication
+
+✔ REST APIs
+
+✔ CRUD Operations
+
+✔ SQLite Database
+
+✔ Django ORM
+
+---
+
+## 🌐 Personal Portfolio Website
+
+**React.js**
+
+✔ Responsive Design
+
+✔ Modern UI
+
+✔ Reusable Components
+
+---
+
+# 📜 Certifications
+
+🏆 Cisco Python Essentials 1
+
+🏆 Cisco Networking Basics
+
+🏆 IBM SkillsBuild – Explore Emerging Technologies
+
+🏆 Google Cloud Skills Boost
+
+🏆 Django Web Development – Technify
+
+🏆 Flutter Mobile App Development – Technify
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight"/>
+</p>
+
+---
+
+# 🌍 Connect With Me
+
+<p align="left">
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://skillicons.dev/icons?i=github" />
+</a>
+
+<a href="https://YOUR_PORTFOLIO_URL">
 🌐 Portfolio
+</a>
 
-Suggested Navigation
-Home
-About
-Skills
-Experience
-Projects
-Education
-Certificates
-Contact
+</p>
+
+---
+
+## 💬 Quote
+
+> "Code with purpose. Learn continuously. Build solutions that make a difference."
