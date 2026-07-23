@@ -1,45 +1,26 @@
+Hero Section
 
+Waqar Ali
 
-Software Engineering Student | Junior Full-Stack Developer | Python • Django • Django REST Framework • React.js • Flutter | REST APIs | SQL | Git | Open to Software Engineer & Backend Developer Opportunities
+Junior Full-Stack Developer | Software Engineering Student
 
+Building scalable web and mobile applications using Python, Django, Django REST Framework, React.js, Flutter, SQL, and Git.
+
+I develop secure REST APIs, backend systems, and responsive user interfaces while continuously learning modern software development practices.
+
+Buttons
+
+Download CV
+View Projects
+Contact Me
+About Me
 About
 
-I am a Software Engineering student with hands-on experience developing full-stack web and mobile applications using Python, Django, Django REST Framework, React.js, Flutter, SQL, and Git. I have experience building secure RESTful APIs, implementing CRUD functionality, designing database-driven applications with Django ORM, and creating responsive user interfaces.
+I am a Software Engineering student with practical experience developing full-stack web and mobile applications. My expertise includes Python, Django, Django REST Framework, React.js, Flutter, SQL, and Git.
 
-During my Django Backend Developer internship, I developed backend applications, designed REST APIs, implemented authentication, optimized application performance, and collaborated using Git and GitHub. I have also built several academic and personal projects, including a React portfolio website, a Django-based cloth brand management system, and a library management system.
+I enjoy building secure backend systems, designing RESTful APIs, implementing authentication, and developing responsive user interfaces. During my internship as a Django Backend Developer, I worked on backend development, API design, database management, and collaborative software development using Git and GitHub.
 
-I am passionate about clean code, continuous learning, and building scalable software solutions. I am currently seeking opportunities as a Software Engineer, Backend Developer, Python Developer, or Full-Stack Developer where I can contribute to real-world projects while continuing to grow professionally.
-
-Experience
-Django Backend Developer Intern
-
-Technify
-
-Developed backend applications using Python, Django, and Django REST Framework.
-Designed secure RESTful APIs for web applications.
-Implemented CRUD functionality, authentication, and API endpoints.
-Worked with Django ORM for efficient database management.
-Fixed bugs, improved application performance, and maintained clean, reusable code.
-Collaborated using Git and GitHub for version control and team development.
-ICT Specialist
-
-Mehran University Grammar School
-
-Provided ICT support and technical solutions.
-Improved system performance and reliability.
-Coordinated testing and technical validation activities.
-Senior IT Teacher (ICT)
-
-Ridge View School
-
-Delivered ICT and computer science instruction.
-Conducted practical laboratory sessions.
-Developed lesson plans and assessments.
-Education
-
-Bachelor of Science in Software Engineering (BSSE)
-
-University of Sindh, Jamshoro
+I am passionate about writing clean, maintainable code and solving real-world problems through technology. I am currently seeking opportunities as a Software Engineer, Backend Developer, Python Developer, or Full-Stack Developer.
 
 Skills
 Programming Languages
@@ -51,6 +32,9 @@ Backend
 Django
 Django REST Framework
 REST API Development
+Authentication
+CRUD Operations
+Django ORM
 Frontend
 React.js
 Flutter
@@ -63,41 +47,124 @@ Django ORM
 Tools
 Git
 GitHub
-VS Code
 Postman
+VS Code
 Android Studio
 PyCharm
+Experience
+Django Backend Developer Intern
+
+Technify
+
+Responsibilities
+Developed backend applications using Python and Django.
+Designed secure RESTful APIs using Django REST Framework.
+Implemented CRUD functionality.
+Developed authentication and authorization features.
+Worked with Django ORM for database management.
+Fixed bugs and optimized application performance.
+Collaborated using Git and GitHub.
+ICT Specialist
+
+Mehran University Grammar School
+
+Provided ICT support.
+Improved system performance.
+Coordinated testing and technical validation.
+Assisted staff with technical solutions.
+Senior IT Teacher (ICT)
+
+Ridge View School
+
+Taught ICT and Computer Science.
+Conducted practical laboratory sessions.
+Designed lesson plans and assessments.
+Guided students in programming fundamentals.
 Projects
 Arain Cloth Brand
 
+Tech Stack
+
 Python • Django • Django REST Framework • React.js
 
-Built a full-stack web application with secure REST APIs, authentication, CRUD operations, and database management using Django ORM.
-
+Features
+Secure Authentication
+REST APIs
+CRUD Operations
+Product Management
+Database Management
+Responsive UI
+Django ORM
 Personal Portfolio Website
+
+Tech Stack
 
 React.js
 
-Designed and developed a responsive portfolio website using reusable React components.
+Features
+Responsive Design
+Reusable Components
+Modern UI
+Smooth Navigation
+Contact Form
+Library Management System
 
-Personal Library Management System
+Tech Stack
 
 Python • Django • React.js
 
-Developed a full-stack library management system with REST APIs, authentication, CRUD operations, and SQLite integration.
+Features
+Student Management
+Book Management
+Authentication
+REST APIs
+CRUD Operations
+SQLite Database
+Education
+Bachelor of Science in Software Engineering (BSSE)
+
+University of Sindh, Jamshoro
+
+Software Engineering Student
 
 Certifications
-Cisco Networking Academy – Python Essentials 1
-Cisco Networking Academy – Networking Basics
-IBM SkillsBuild – Explore Emerging Tech
-Google Cloud Skills Boost Certifications
-Django Web Development – Technify
-Flutter Mobile App Development – Technify
-Open to Work Roles
+Cisco Networking Academy — Python Essentials 1
+Cisco Networking Academy — Networking Basics
+IBM SkillsBuild — Explore Emerging Technologies
+Google Cloud Skills Boost
+Django Web Development — Technify
+Flutter Mobile App Development — Technify
+Open to Opportunities
+
+I am actively looking for opportunities as:
+
 Software Engineer
+Backend Developer
 Python Developer
 Django Developer
-Backend Developer
-Full-Stack Developer
 Django REST Framework Developer
+Full-Stack Developer
 React.js Developer
+Contact
+
+Waqar Ali
+
+📍 Jamshoro, Sindh, Pakistan
+
+📧 your.email@example.com
+
+💼 LinkedIn
+
+💻 GitHub
+
+🌐 Portfolio
+
+Suggested Navigation
+Home
+About
+Skills
+Experience
+Projects
+Education
+Certificates
+Contact
