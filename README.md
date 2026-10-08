@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/terminal-banner.svg" alt="Waqar Ali — Full-stack developer. Python, Django, Next.js, TypeScript." width="100%" />
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/terminal-banner.svg?v=2" alt="Waqar Ali — Full-stack developer. Animated 3D wireframe, digital data streams, and terminal interface." width="100%" />
 
 **Backend logic. Thoughtful interfaces. Useful software.**
 
