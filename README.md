@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/waqar-particle-portrait.png" alt="Waqar Ali — portrait in glowing emerald and cyan particles" width="460" />
+
+<br />
+
 <img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/terminal-banner.svg?v=2" alt="Waqar Ali — Full-stack developer. Animated 3D wireframe, digital data streams, and terminal interface." width="100%" />
 
 **Backend logic. Thoughtful interfaces. Useful software.**
