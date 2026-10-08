@@ -34,11 +34,18 @@ developer:
 
 ### `02 / selected builds`
 
-| Project | What I'm building | Source |
-| :--- | :--- | :--- |
-| **CodGuard** | Cash-on-delivery order verification, explainable risk scoring, and delivery tracking for merchants. | [Backend](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores) · [Frontend](https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-) |
-| **FinAI Manager** | Wallets, transactions, budgets, savings, and AI-assisted explanations of recorded finances. | [Backend](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend) · [Frontend](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend) |
-| **Django REST CRUD API** | A focused repository for CRUD operations with Django REST. | [Repository](https://github.com/waqaralisoomro915-cloud/django-rest-crud-api) |
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-backend.svg" width="100%" alt="CodGuard backend — Order verification, risk scoring and delivery tracking. Open repository." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-frontend.svg" width="100%" alt="CodGuard frontend — The interface for the CodGuard commerce workflow. Open repository." /></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-backend.svg" width="100%" alt="FinAI Manager backend — Wallets, budgets, savings and AI-assisted explanations. Open repository." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-frontend.svg" width="100%" alt="FinAI Manager frontend — Personal finance dashboards and connected user workflows. Open repository." /></a></td>
+</tr>
+</table>
+
+[More: Django REST CRUD API](https://github.com/waqaralisoomro915-cloud/django-rest-crud-api) · [All repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
 
 ### `03 / stack`
 
