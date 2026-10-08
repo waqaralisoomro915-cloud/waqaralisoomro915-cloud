@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Waqar Ali — Full-stack developer</title><desc id="desc">Dark terminal banner with animated circuit paths and a blinking cursor. Python, Django, Next.js and TypeScript.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#060c15"/><stop offset="1" stop-color="#0d1d29"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#38ef98"/><stop offset="1" stop-color="#38d7ff"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#15303d" stroke-width=".6"/></pattern>
+</defs>
+<style>
+.cursor{animation:blink 1.2s steps(2,end) infinite}.flow{stroke-dasharray:12 280;animation:flow 9s linear infinite}.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes blink{50%{opacity:0}}@keyframes flow{to{stroke-dashoffset:-584}}@keyframes pulse{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.cursor,.flow,.pulse{animation:none}}
+</style>
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="20" fill="url(#grid)" opacity=".55"/>
+<rect x="1" y="1" width="1198" height="418" rx="19" fill="none" stroke="#23414e"/>
+<path d="M0 53H1200" stroke="#23414e"/>
+<circle cx="29" cy="27" r="5" fill="#ff666d"/><circle cx="49" cy="27" r="5" fill="#ffcc66"/><circle cx="69" cy="27" r="5" fill="#38ef98"/>
+<g font-family="Consolas,Menlo,monospace">
+<text x="96" y="32" font-size="13" fill="#8ba8b8">waqar@dev ~ / workspace</text>
+<text x="1158" y="32" font-size="12" text-anchor="end" fill="#38ef98">BUILD / LEARN / ITERATE</text>
+<text x="58" y="111" font-size="17" fill="#38ef98">&gt; whoami</text>
+<text x="55" y="187" font-size="64" font-weight="700" letter-spacing="-2" fill="#edf7ff">WAQAR ALI</text>
+<text x="59" y="225" font-size="21" fill="#b4cbd8">Full-stack developer</text>
+<rect x="59" y="251" width="365" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="59" y="291" font-size="17" fill="#9db6c5">Python / Django / Next.js / TypeScript</text>
+<text x="59" y="353" font-size="15" fill="#38ef98">$ building useful software</text>
+<rect class="cursor" x="321" y="340" width="9" height="17" fill="#38ef98"/>
+<text x="59" y="389" font-size="11" fill="#698a9d">waqaralisoomro915-cloud / github</text>
+</g>
+<g fill="none" stroke="#245366" stroke-width="2">
+<path d="M836 128h70l48 48h188M792 178h88l50 50h212M829 278h80l44-44h189M861 329h70l48-48h163"/>
+<path d="M836 128h70l48 48h188" stroke="#38ef98" class="flow"/>
+<path d="M792 178h88l50 50h212" stroke="#38d7ff" class="flow" style="animation-delay:-3s"/>
+<path d="M829 278h80l44-44h189" stroke="#38ef98" class="flow" style="animation-delay:-6s"/>
+<circle cx="836" cy="128" r="5" fill="#38ef98" class="pulse"/><circle cx="792" cy="178" r="5" fill="#38d7ff"/>
+<circle cx="829" cy="278" r="5" fill="#38ef98"/><circle cx="861" cy="329" r="5" fill="#38d7ff" class="pulse"/>
+</g></svg>
