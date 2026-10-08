@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img" aria-labelledby="title desc"><title id="title">Development toolkit</title><desc id="desc">Python, Django, Next.js, TypeScript, Tailwind CSS, Git.</desc><style>.orbit{animation:trace 8s linear infinite}@keyframes trace{to{stroke-dashoffset:-157}}@media(prefers-reduced-motion:reduce){.orbit{animation:none}}</style><rect width="900" height="140" rx="16" fill="#07101b"/><g font-family="Segoe UI,Arial,sans-serif"><g transform="translate(16 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#63c7ff" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#63c7ff" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#63c7ff" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-0s"/>
+<text x="65" y="47" fill="#63c7ff" font-size="21" font-weight="700" text-anchor="middle">Py</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">Python</text></g><g transform="translate(161 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#45edb0" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#45edb0" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#45edb0" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-1.5s"/>
+<text x="65" y="47" fill="#45edb0" font-size="21" font-weight="700" text-anchor="middle">dj</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">Django</text></g><g transform="translate(306 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#edf5ff" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#edf5ff" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#edf5ff" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-3s"/>
+<text x="65" y="47" fill="#edf5ff" font-size="21" font-weight="700" text-anchor="middle">N</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">Next.js</text></g><g transform="translate(451 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#63c7ff" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#63c7ff" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#63c7ff" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-4.5s"/>
+<text x="65" y="47" fill="#63c7ff" font-size="21" font-weight="700" text-anchor="middle">TS</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">TypeScript</text></g><g transform="translate(596 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#49d9df" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#49d9df" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#49d9df" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-6s"/>
+<text x="65" y="47" fill="#49d9df" font-size="21" font-weight="700" text-anchor="middle">UI</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">Tailwind</text></g><g transform="translate(741 14)">
+<rect x="3" y="4" width="130" height="108" rx="12" fill="#03070d"/>
+<rect width="130" height="108" rx="12" fill="#101f2f" stroke="#2a4054"/>
+<path d="M12 1H118" stroke="#ffac86" opacity=".5"/>
+<circle cx="65" cy="40" r="25" fill="#091421" stroke="#ffac86" stroke-opacity=".25"/>
+<circle cx="65" cy="40" r="25" fill="none" stroke="#ffac86" stroke-width="1.5" stroke-dasharray="18 139" class="orbit" style="animation-delay:-7.5s"/>
+<text x="65" y="47" fill="#ffac86" font-size="17" font-weight="700" text-anchor="middle">git</text>
+<text x="65" y="91" fill="#d4e5f3" font-size="13" text-anchor="middle">Git</text></g></g></svg>

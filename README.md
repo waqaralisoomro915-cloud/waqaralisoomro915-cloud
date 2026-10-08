@@ -16,19 +16,10 @@
 
 ### `01 / whoami`
 
-I'm **Waqar Ali**, a developer building web applications with **Python, Django, Next.js, and TypeScript**. My projects explore personal finance, e-commerce workflows, authentication, and API-driven interfaces.
+I'm **Waqar Ali**, a full-stack developer building **Django REST APIs and Next.js interfaces**. I work on applications that turn complex workflows into clear, usable software—from personal finance to cash-on-delivery order verification.
 
-```yaml
-developer:
-  name: Waqar Ali
-  focus:
-    - Django REST APIs and application business rules
-    - Next.js interfaces and frontend integration
-    - Authentication, ownership checks, and data validation
-  building:
-    - FinAI Manager
-    - CodGuard
-```
+**Currently building:** [CodGuard](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores) and [FinAI Manager](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend).  
+**Engineering focus:** business rules, authentication, data ownership, and frontend–backend integration.
 
 <a id="selected-builds"></a>
 
@@ -47,7 +38,26 @@ developer:
 
 [More: Django REST CRUD API](https://github.com/waqaralisoomro915-cloud/django-rest-crud-api) · [All repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
 
+<details>
+<summary><b>Inside the builds — architecture, workflows, and setup</b></summary>
+
+#### CodGuard · E-commerce operations
+
+Verifies cash-on-delivery orders and routes uncertain cases for review. The backend separates business rules into services and scopes records to each store; the frontend uses a server-side API proxy and cookie-based authentication.
+
+[Architecture](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores/blob/main/docs/architecture.md) · [Demo scenarios](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores/blob/main/docs/demo-scenarios.md) · [Run locally](https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-#running-it)
+
+#### FinAI Manager · Personal finance
+
+Connects wallets, transactions, budgets, and savings in a Next.js interface backed by Django REST. Financial calculations stay in the application; AI assistance explains recorded financial summaries.
+
+[Backend guide](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend) · [Frontend setup](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend)
+
+</details>
+
 ### `03 / stack`
+
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/tech-toolkit.svg" width="100%" alt="Python, Django, Next.js, TypeScript, Tailwind CSS and Git" />
 
 **Backend**  
 `Python` · `Django` · `Django REST Framework` · `JWT`
