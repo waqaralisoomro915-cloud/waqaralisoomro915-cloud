@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/waqar-particle-portrait.png" alt="Waqar Ali — portrait in glowing emerald and cyan particles" width="460" />
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/spider-man.png" alt="Spider-Man in an airborne pose against a city background" width="600" />
 
 <br />
 
