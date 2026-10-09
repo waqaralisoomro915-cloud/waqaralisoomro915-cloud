@@ -8,7 +8,7 @@
 
 **Backend logic. Thoughtful interfaces. Useful software.**
 
-[Explore projects](#selected-builds) · [Browse repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
+[Start here](#selected-builds) · [Project cards](#all-repositories) · [Browse repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
 
 </div>
 
@@ -25,8 +25,27 @@
 
 <a id="selected-builds"></a>
 
-### `02 / all repositories`
+### `02 / start here`
 
+Three projects to explore first. Each connects a backend with a dedicated interface.
+
+<a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/showcase/codguard.svg" width="100%" alt="CodGuard: Verify cash-on-delivery orders and review risk. Open backend." /></a>
+
+[Backend](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores) · [Frontend](https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-)
+
+<a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/showcase/finai.svg" width="100%" alt="FinAI Manager: Manage wallets, budgets, savings, and transactions. Open backend." /></a>
+
+[Backend](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend) · [Frontend](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend)
+
+<a href="https://github.com/waqaralisoomro915-cloud/StudyLens_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/showcase/studylens.svg" width="100%" alt="StudyLens: Turn study material into chapters, quizzes, and notes. Open backend." /></a>
+
+[Backend](https://github.com/waqaralisoomro915-cloud/StudyLens_Backend) · [Frontend](https://github.com/waqaralisoomro915-cloud/StudyLens_Frontend)
+
+<a id="all-repositories"></a>
+
+### `03 / all repositories`
+
+<!-- REPOSITORY-CARDS:START -->
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-backend.svg?v=all-repos" width="100%" alt="CodGuard backend — Order verification, risk scoring and delivery tracking." /></a></td>
@@ -69,6 +88,7 @@
 <td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/github-profile.svg?v=all-repos" width="100%" alt="GitHub Profile profile — The animated visuals and README behind this developer profile." /></a></td>
 </tr>
 </table>
+<!-- REPOSITORY-CARDS:END -->
 
 [All repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
 
@@ -89,15 +109,15 @@ Connects wallets, transactions, budgets, and savings in a Next.js interface back
 
 </details>
 
-### `03 / stack`
+### `04 / stack`
 
 <img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/stack-console.svg" width="100%" alt="Development toolkit. Backend: Python, Django REST Framework, JWT. Frontend: TypeScript, React, Next.js, Tailwind CSS. Data and tools: SQLite, PostgreSQL, Redis, Celery, Docker, Git." />
 
-### `04 / engineering interests`
+### `05 / engineering interests`
 
 <img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/engineering-console.svg" width="100%" alt="Engineering principles: clear business rules and maintainable APIs; user and store isolation, validation and authentication; interfaces for complex workflows; tests and documentation that explain behavior." />
 
-### `05 / contribution activity`
+### `06 / contribution activity`
 
 <a href="https://github.com/waqaralisoomro915-cloud?tab=overview"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/contribution-snake.svg?v=arcade" width="100%" alt="Arcade-style contribution snake with eyes, a neon playfield and real activity counters. Automated replay refreshed daily." /></a>
 

@@ -1,0 +1,222 @@
+{
+  "CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores": {
+    "name": "CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores",
+    "path": "assets/cards/codguard-backend.svg",
+    "title": "CodGuard",
+    "label": "BACKEND",
+    "lines": [
+      "Order verification, risk scoring",
+      "and delivery tracking."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-": {
+    "name": "CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-",
+    "path": "assets/cards/codguard-frontend.svg",
+    "title": "CodGuard",
+    "label": "FRONTEND",
+    "lines": [
+      "Order workflows, review queues",
+      "and merchant dashboards."
+    ],
+    "stack": "Next.js / TypeScript"
+  },
+  "FinAI_Mannager_Backend": {
+    "name": "FinAI_Mannager_Backend",
+    "path": "assets/cards/finai-backend.svg",
+    "title": "FinAI Manager",
+    "label": "BACKEND",
+    "lines": [
+      "Wallets, budgets, savings",
+      "and AI-assisted explanations."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "FinAI_Mannager_Frontend": {
+    "name": "FinAI_Mannager_Frontend",
+    "path": "assets/cards/finai-frontend.svg",
+    "title": "FinAI Manager",
+    "label": "FRONTEND",
+    "lines": [
+      "Personal finance dashboards",
+      "and connected user workflows."
+    ],
+    "stack": "Next.js / TypeScript"
+  },
+  "StudyLens_Backend": {
+    "name": "StudyLens_Backend",
+    "path": "assets/cards/studylens-backend.svg",
+    "title": "StudyLens",
+    "label": "BACKEND",
+    "lines": [
+      "Study uploads, chapters, quizzes",
+      "and timetable generation."
+    ],
+    "stack": "Python"
+  },
+  "StudyLens_Frontend": {
+    "name": "StudyLens_Frontend",
+    "path": "assets/cards/studylens-frontend.svg",
+    "title": "StudyLens",
+    "label": "FRONTEND",
+    "lines": [
+      "Study materials, schedules",
+      "and editable learning notes."
+    ],
+    "stack": "TypeScript"
+  },
+  "atmosphere-weather-app": {
+    "name": "atmosphere-weather-app",
+    "path": "assets/cards/atmosphere-weather.svg",
+    "title": "Atmosphere",
+    "label": "WEATHER",
+    "lines": [
+      "Weather information with",
+      "offline support."
+    ],
+    "stack": "TypeScript"
+  },
+  "E_Commerce": {
+    "name": "E_Commerce",
+    "path": "assets/cards/e-commerce.svg",
+    "title": "E-Commerce",
+    "label": "API",
+    "lines": [
+      "Products, carts, orders",
+      "and shopping workflows."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "TaskFlow": {
+    "name": "TaskFlow",
+    "path": "assets/cards/taskflow.svg",
+    "title": "TaskFlow",
+    "label": "API",
+    "lines": [
+      "Task management through",
+      "a Django REST API."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "JobPortal": {
+    "name": "JobPortal",
+    "path": "assets/cards/jobportal.svg",
+    "title": "Job Portal",
+    "label": "API",
+    "lines": [
+      "Connecting job seekers",
+      "and employers."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "Student_Management_System": {
+    "name": "Student_Management_System",
+    "path": "assets/cards/student-management.svg",
+    "title": "Student Management",
+    "label": "API",
+    "lines": [
+      "Students, courses, departments",
+      "and academic records."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "Hospital_Management_System": {
+    "name": "Hospital_Management_System",
+    "path": "assets/cards/hospital-management.svg",
+    "title": "Hospital Management",
+    "label": "API",
+    "lines": [
+      "Hospital workflows with JWT",
+      "and role-based access control."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "Register-Login-Logout-forgetPassword-resetPassword": {
+    "name": "Register-Login-Logout-forgetPassword-resetPassword",
+    "path": "assets/cards/authentication.svg",
+    "title": "Authentication",
+    "label": "API",
+    "lines": [
+      "Email sign-in, JWT sessions",
+      "and account access workflows."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "django-rest-crud-api": {
+    "name": "django-rest-crud-api",
+    "path": "assets/cards/django-rest-crud.svg",
+    "title": "Django REST CRUD",
+    "label": "API",
+    "lines": [
+      "Create, read, update and delete",
+      "with serializers and API views."
+    ],
+    "stack": "Python / Django REST"
+  },
+  "Digital_Portfolio": {
+    "name": "Digital_Portfolio",
+    "path": "assets/cards/digital-portfolio.svg",
+    "title": "Digital Portfolio",
+    "label": "PORTFOLIO",
+    "lines": [
+      "Projects, skills, certifications",
+      "and experience in one place."
+    ],
+    "stack": "React / TypeScript"
+  },
+  "PersonalPortfolio": {
+    "name": "PersonalPortfolio",
+    "path": "assets/cards/personal-portfolio.svg",
+    "title": "Personal Portfolio",
+    "label": "PORTFOLIO",
+    "lines": [
+      "Explore the source for",
+      "my personal portfolio."
+    ],
+    "stack": "HTML"
+  },
+  "MyPersonalLibrary": {
+    "name": "MyPersonalLibrary",
+    "path": "assets/cards/personal-library.svg",
+    "title": "My Personal Library",
+    "label": "PROJECT",
+    "lines": [
+      "Explore the source for",
+      "my personal library project."
+    ],
+    "stack": "CSS"
+  },
+  "blog": {
+    "name": "blog",
+    "path": "assets/cards/blog.svg",
+    "title": "Blog",
+    "label": "PROJECT",
+    "lines": [
+      "Explore the source for",
+      "my blog project."
+    ],
+    "stack": "HTML"
+  },
+  "TODO-LIST": {
+    "name": "TODO-LIST",
+    "path": "assets/cards/todo-list.svg",
+    "title": "To-Do List",
+    "label": "PROJECT",
+    "lines": [
+      "Explore the source for",
+      "my to-do list project."
+    ],
+    "stack": "Repository"
+  },
+  "waqaralisoomro915-cloud": {
+    "name": "waqaralisoomro915-cloud",
+    "path": "assets/cards/github-profile.svg",
+    "title": "GitHub Profile",
+    "label": "PROFILE",
+    "lines": [
+      "The animated visuals and README",
+      "behind this developer profile."
+    ],
+    "stack": "Markdown / SVG"
+  }
+}
