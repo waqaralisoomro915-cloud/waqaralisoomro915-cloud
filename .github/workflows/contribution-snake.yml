@@ -1,0 +1,93 @@
+name: Refresh contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 10 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/contribution-snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate animation from GitHub contributions
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#65cfff&color_dots=#102438,#164e43,#218c6a,#30c78d,#47efb5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Frame and publish the activity panel
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPOSITORY: ${{ github.repository }}
+        shell: python
+        run: |
+          import base64, datetime, json, os, urllib.request, urllib.error
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          ns = "http://www.w3.org/2000/svg"
+          ET.register_namespace("", ns)
+          snake = ET.fromstring(Path("dist/snake.svg").read_text())
+          box = [float(n) for n in snake.attrib["viewBox"].replace(",", " ").split()]
+          graph_h = round(912 * box[3] / box[2])
+          height = graph_h + 124
+          panel = ET.Element("{" + ns + "}svg", {
+              "width": "960", "height": str(height),
+              "viewBox": f"0 0 960 {height}", "role": "img",
+              "aria-labelledby": "panel-title panel-desc"
+          })
+          def add(tag, attrs=None, text=None):
+              el = ET.SubElement(panel, "{" + ns + "}" + tag, attrs or {})
+              if text is not None:
+                  el.text = text
+              return el
+          add("title", {"id": "panel-title"}, "Contribution activity — neon snake")
+          add("desc", {"id": "panel-desc"}, "Animated snake traversing Waqar Ali's GitHub contribution calendar. Refreshed daily.")
+          add("rect", {"x":"1", "y":"1", "width":"958", "height":str(height-2),
+                       "rx":"18", "fill":"#07121e", "stroke":"#29485c"})
+          add("text", {"x":"27", "y":"29", "fill":"#47efb5", "font-size":"11",
+                       "letter-spacing":"3", "font-family":"monospace"}, "ACTIVITY / CONTRIBUTION SIGNAL")
+          add("text", {"x":"25", "y":"60", "fill":"#edf7ff", "font-size":"25",
+                       "font-weight":"700", "font-family":"Arial,sans-serif"}, "One contribution at a time.")
+          snake.set("x", "24")
+          snake.set("y", "78")
+          snake.set("width", "912")
+          snake.set("height", str(graph_h))
+          panel.append(snake)
+          add("text", {"x":"27", "y":str(height-20), "fill":"#8eafc6", "font-size":"10",
+                       "font-family":"monospace"}, "GITHUB CONTRIBUTIONS / UPDATED " + datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d UTC"))
+          data = ET.tostring(panel, encoding="utf-8", xml_declaration=True)
+          endpoint = "https://api.github.com/repos/" + os.environ["GH_REPOSITORY"] + "/contents/assets/contribution-snake.svg"
+          headers = {"Authorization":"Bearer " + os.environ["GH_TOKEN"],
+                     "Accept":"application/vnd.github+json", "User-Agent":"profile-activity-workflow"}
+          sha = None
+          try:
+              with urllib.request.urlopen(urllib.request.Request(endpoint, headers=headers)) as response:
+                  sha = json.load(response)["sha"]
+          except urllib.error.HTTPError as error:
+              if error.code != 404:
+                  raise
+          payload = {"message":"Refresh contribution snake [skip ci]",
+                     "content":base64.b64encode(data).decode(), "branch":"main"}
+          if sha:
+              payload["sha"] = sha
+          request = urllib.request.Request(endpoint, data=json.dumps(payload).encode(),
+                                          headers={**headers, "Content-Type":"application/json"}, method="PUT")
+          with urllib.request.urlopen(request) as response:
+              result = json.load(response)
+          print("Published activity panel:", result["content"]["path"])
