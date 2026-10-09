@@ -99,7 +99,7 @@ Connects wallets, transactions, budgets, and savings in a Next.js interface back
 
 ### `05 / contribution activity`
 
-<a href="https://github.com/waqaralisoomro915-cloud?tab=overview"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/contribution-snake.svg" width="100%" alt="Animated neon snake following Waqar Ali's GitHub contribution calendar, refreshed daily." /></a>
+<a href="https://github.com/waqaralisoomro915-cloud?tab=overview"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/contribution-snake.svg?v=arcade" width="100%" alt="Arcade-style contribution snake with eyes, a neon playfield and real activity counters. Automated replay refreshed daily." /></a>
 
 <sub>Generated from GitHub contribution activity · refreshed daily · [Animation by Platane/snk](https://github.com/Platane/snk)</sub>
 
