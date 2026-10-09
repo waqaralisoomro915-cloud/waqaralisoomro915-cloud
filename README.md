@@ -89,23 +89,11 @@ Connects wallets, transactions, budgets, and savings in a Next.js interface back
 
 ### `03 / stack`
 
-<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/tech-toolkit.svg" width="100%" alt="Python, Django, Next.js, TypeScript, Tailwind CSS and Git" />
-
-**Backend**  
-`Python` · `Django` · `Django REST Framework` · `JWT`
-
-**Frontend**  
-`TypeScript` · `React` · `Next.js` · `Tailwind CSS`
-
-**Data & tooling used in my projects**  
-`SQLite` · `PostgreSQL` · `Redis` · `Celery` · `Docker` · `Git`
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/stack-console.svg" width="100%" alt="Development toolkit. Backend: Python, Django REST Framework, JWT. Frontend: TypeScript, React, Next.js, Tailwind CSS. Data and tools: SQLite, PostgreSQL, Redis, Celery, Docker, Git." />
 
 ### `04 / engineering interests`
 
-- Clear business rules and maintainable API boundaries.
-- User and store isolation, validation, and predictable authentication.
-- Interfaces that make complex workflows easier to understand.
-- Tests and documentation that explain how a system behaves.
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/engineering-console.svg" width="100%" alt="Engineering principles: clear business rules and maintainable APIs; user and store isolation, validation and authentication; interfaces for complex workflows; tests and documentation that explain behavior." />
 
 ---
 
