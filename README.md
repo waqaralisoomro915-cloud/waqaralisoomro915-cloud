@@ -16,10 +16,12 @@
 
 ### `01 / whoami`
 
-I'm **Waqar Ali**, a full-stack developer building **Django REST APIs and Next.js interfaces**. I work on applications that turn complex workflows into clear, usable software—from personal finance to cash-on-delivery order verification.
+<img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/identity-console.svg" width="100%" alt="Waqar Ali, full-stack developer building Django REST APIs and Next.js interfaces. Projects span personal finance and cash-on-delivery verification. Focus: business rules, authentication, data ownership and API integration." />
 
-**Currently building:** [CodGuard](https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores) and [FinAI Manager](https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend).  
-**Engineering focus:** business rules, authentication, data ownership, and frontend–backend integration.
+<p align="center">
+<a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/building-codguard.svg" width="49%" alt="Currently building CodGuard — open repository" /></a>
+<a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/building-finai.svg" width="49%" alt="Currently building FinAI Manager — open repository" /></a>
+</p>
 
 <a id="selected-builds"></a>
 

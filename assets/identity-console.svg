@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">Waqar Ali — full-stack developer</title><desc id="desc">Building Django REST APIs and Next.js interfaces for personal finance and cash-on-delivery order verification. Engineering focus: business rules, authentication, data ownership, and frontend-backend integration.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1c2b"/><stop offset="1" stop-color="#040b15"/></linearGradient><linearGradient id="neon"><stop stop-color="#47efb5"/><stop offset=".6" stop-color="#52d9ff"/><stop offset="1" stop-color="#a79cff"/></linearGradient><radialGradient id="halo"><stop stop-color="#38dab9" stop-opacity=".14"/><stop offset="1" stop-color="#38dab9" stop-opacity="0"/></radialGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#21455b" stroke-opacity=".22" stroke-width=".7"/></pattern></defs>
+<style>.flow{stroke-dasharray:16 180;animation:flow 10s linear infinite}.orbit{stroke-dasharray:36 9 3 9;animation:orbit 18s linear infinite}.cursor{animation:blink 1.2s steps(2,end) infinite}.pulse{animation:pulse 4s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-392}}@keyframes orbit{to{stroke-dashoffset:-456}}@keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){.flow,.orbit,.cursor,.pulse{animation:none}}</style>
+<rect x="1" y="1" width="958" height="358" rx="18" fill="url(#bg)" stroke="#29465b"/>
+<rect x="1" y="1" width="958" height="358" rx="18" fill="url(#grid)"/>
+<path d="M18 1H940" stroke="url(#neon)" opacity=".8"/><path d="M1 43H959" stroke="#254256"/>
+<circle cx="23" cy="23" r="4" fill="#ff6e88"/><circle cx="40" cy="23" r="4" fill="#ffd079"/><circle cx="57" cy="23" r="4" fill="#47efb5"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="78" y="27" fill="#89a9bf" font-family="Consolas,monospace" font-size="11">identity.json / developer workspace</text>
+<text x="928" y="27" text-anchor="end" fill="#47efb5" font-size="10" letter-spacing="2">01 / WHOAMI</text>
+<text x="29" y="82" fill="#47efb5" font-family="Consolas,monospace" font-size="14">&gt; whoami</text><rect x="113" y="69" width="8" height="16" fill="#47efb5" class="cursor"/>
+<text x="27" y="129" fill="#eff8ff" font-size="40" font-weight="700">Waqar Ali<tspan fill="#47efb5">.</tspan></text>
+<text x="30" y="161" fill="#b0d0e6" font-size="21">Full-stack developer</text>
+<path d="M30 183H592" stroke="#28485e"/><path d="M30 183H592" stroke="url(#neon)" class="flow"/>
+<text x="30" y="214" fill="#daeaf5" font-size="17">Building Django REST APIs and Next.js interfaces.</text>
+<text x="30" y="243" fill="#94b3ca" font-size="14">From personal finance to cash-on-delivery verification,</text>
+<text x="30" y="264" fill="#94b3ca" font-size="14">I turn complex workflows into clear, usable software.</text>
+<g font-size="12" text-anchor="middle">
+<rect x="30" y="302" width="156" height="32" rx="7" fill="#10283a" stroke="#2a5161"/><text x="108" y="323" fill="#6ae8c5">Business rules</text>
+<rect x="196" y="302" width="169" height="32" rx="7" fill="#10283a" stroke="#2a5161"/><text x="280" y="323" fill="#7cddff">Authentication</text>
+<rect x="375" y="302" width="173" height="32" rx="7" fill="#10283a" stroke="#2a5161"/><text x="461" y="323" fill="#a9baff">Data ownership</text>
+<rect x="558" y="302" width="187" height="32" rx="7" fill="#10283a" stroke="#2a5161"/><text x="651" y="323" fill="#6ae8c5">API integration</text>
+</g>
+<text x="825" y="326" text-anchor="middle" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#6e98b3">CODE · BUILD · REFINE</text>
+</g>
+<ellipse cx="784" cy="165" rx="150" ry="130" fill="url(#halo)"/>
+<g fill="none" stroke="#28546a"><circle cx="785" cy="161" r="96" stroke-dasharray="2 8"/><circle cx="785" cy="161" r="78" stroke="#47efb5" stroke-opacity=".5" class="orbit"/><ellipse cx="785" cy="161" rx="105" ry="39" transform="rotate(-27 785 161)" stroke="#58caff" stroke-opacity=".4" class="orbit"/>
+<path d="M691 230h-30l-17 17h-21M877 88h26l14-14h19"/><path d="M691 230h-30l-17 17h-21M877 88h26l14-14h19" stroke="#47efb5" class="flow"/></g>
+<path d="M730 144l-20 17 20 17M840 144l20 17-20 17M799 131l-28 60" fill="none" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="785" cy="83" r="4" fill="#47efb5" class="pulse"/>
+<text x="785" y="280" text-anchor="middle" font-family="Consolas,monospace" font-size="10" letter-spacing="2.4" fill="#659ab5">LOGIC + INTERFACE</text>
+</svg>
