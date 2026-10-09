@@ -97,6 +97,12 @@ Connects wallets, transactions, budgets, and savings in a Next.js interface back
 
 <img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/engineering-console.svg" width="100%" alt="Engineering principles: clear business rules and maintainable APIs; user and store isolation, validation and authentication; interfaces for complex workflows; tests and documentation that explain behavior." />
 
+### `05 / contribution activity`
+
+<a href="https://github.com/waqaralisoomro915-cloud?tab=overview"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/contribution-snake.svg" width="100%" alt="Animated neon snake following Waqar Ali's GitHub contribution calendar, refreshed daily." /></a>
+
+<sub>Generated from GitHub contribution activity · refreshed daily · [Animation by Platane/snk](https://github.com/Platane/snk)</sub>
+
 ---
 
 <div align="center">
