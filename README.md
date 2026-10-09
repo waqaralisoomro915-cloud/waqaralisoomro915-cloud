@@ -48,46 +48,48 @@ Three projects to explore first. Each connects a backend with a dedicated interf
 <!-- REPOSITORY-CARDS:START -->
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-backend.svg?v=all-repos" width="100%" alt="CodGuard backend — Order verification, risk scoring and delivery tracking." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-frontend.svg?v=all-repos" width="100%" alt="CodGuard frontend — Order workflows, review queues and merchant dashboards." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Backend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-for-E-commerce-Stores"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-backend.svg" width="100%" alt="CodGuard — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/CodGuard-Frontend-Cash-on-Delivery-Order-Verification-Fraud-Prevention-Platform-"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/codguard-frontend.svg" width="100%" alt="CodGuard — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-backend.svg?v=all-repos" width="100%" alt="FinAI Manager backend — Wallets, budgets, savings and AI-assisted explanations." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-frontend.svg?v=all-repos" width="100%" alt="FinAI Manager frontend — Personal finance dashboards and connected user workflows." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-backend.svg" width="100%" alt="FinAI Manager — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/FinAI_Mannager_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/finai-frontend.svg" width="100%" alt="FinAI Manager — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/StudyLens_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/studylens-backend.svg?v=all-repos" width="100%" alt="StudyLens backend — Study uploads, chapters, quizzes and timetable generation." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/StudyLens_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/studylens-frontend.svg?v=all-repos" width="100%" alt="StudyLens frontend — Study materials, schedules and editable learning notes." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/StudyLens_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/studylens-backend.svg" width="100%" alt="StudyLens — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/StudyLens_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/studylens-frontend.svg" width="100%" alt="StudyLens — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/atmosphere-weather-app"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/atmosphere-weather.svg?v=all-repos" width="100%" alt="Atmosphere weather — Weather information with offline support." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/E_Commerce"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/e-commerce.svg?v=all-repos" width="100%" alt="E-Commerce api — Products, carts, orders and shopping workflows." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/atmosphere-weather-app"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/atmosphere-weather.svg" width="100%" alt="Atmosphere — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/E_Commerce"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/e-commerce.svg" width="100%" alt="E-Commerce — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/TaskFlow"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/taskflow.svg?v=all-repos" width="100%" alt="TaskFlow api — Task management through a Django REST API." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/JobPortal"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/jobportal.svg?v=all-repos" width="100%" alt="Job Portal api — Connecting job seekers and employers." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/TaskFlow"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/taskflow.svg" width="100%" alt="TaskFlow — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/JobPortal"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/jobportal.svg" width="100%" alt="Job Portal — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Student_Management_System"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/student-management.svg?v=all-repos" width="100%" alt="Student Management api — Students, courses, departments and academic records." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Hospital_Management_System"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/hospital-management.svg?v=all-repos" width="100%" alt="Hospital Management api — Hospital workflows with JWT and role-based access control." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Student_Management_System"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/student-management.svg" width="100%" alt="Student Management — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Hospital_Management_System"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/hospital-management.svg" width="100%" alt="Hospital Management — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Register-Login-Logout-forgetPassword-resetPassword"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/authentication.svg?v=all-repos" width="100%" alt="Authentication api — Email sign-in, JWT sessions and account access workflows." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/django-rest-crud-api"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/django-rest-crud.svg?v=all-repos" width="100%" alt="Django REST CRUD api — Create, read, update and delete with serializers and API views." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Register-Login-Logout-forgetPassword-resetPassword"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/authentication.svg" width="100%" alt="Authentication — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/django-rest-crud-api"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/django-rest-crud.svg" width="100%" alt="Django REST CRUD — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Digital_Portfolio"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/digital-portfolio.svg?v=all-repos" width="100%" alt="Digital Portfolio portfolio — Projects, skills, certifications and experience in one place." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/PersonalPortfolio"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/personal-portfolio.svg?v=all-repos" width="100%" alt="Personal Portfolio portfolio — Explore the source for my personal portfolio." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Digital_Portfolio"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/digital-portfolio.svg" width="100%" alt="Digital Portfolio — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/PersonalPortfolio"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/personal-portfolio.svg" width="100%" alt="Personal Portfolio — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/MyPersonalLibrary"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/personal-library.svg?v=all-repos" width="100%" alt="My Personal Library project — Explore the source for my personal library project." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/blog"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/blog.svg?v=all-repos" width="100%" alt="Blog project — Explore the source for my blog project." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/MyPersonalLibrary"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/personal-library.svg" width="100%" alt="My Personal Library — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/blog"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/blog.svg" width="100%" alt="Blog — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/TODO-LIST"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/todo-list.svg?v=all-repos" width="100%" alt="To-Do List project — Explore the source for my to-do list project." /></a></td>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/github-profile.svg?v=all-repos" width="100%" alt="GitHub Profile profile — The animated visuals and README behind this developer profile." /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/TODO-LIST"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/todo-list.svg" width="100%" alt="To-Do List — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/github-profile.svg" width="100%" alt="GitHub Profile — open repository" /></a></td>
 </tr>
 </table>
+
+<sub>20 public repositories · refreshed daily</sub>
 <!-- REPOSITORY-CARDS:END -->
 
 [All repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
