@@ -42,35 +42,71 @@ jobs:
 
           ns = "http://www.w3.org/2000/svg"
           ET.register_namespace("", ns)
+          tag = lambda name: "{" + ns + "}" + name
           snake = ET.fromstring(Path("dist/snake.svg").read_text())
           box = [float(n) for n in snake.attrib["viewBox"].replace(",", " ").split()]
           graph_h = round(912 * box[3] / box[2])
-          height = graph_h + 124
-          panel = ET.Element("{" + ns + "}svg", {
-              "width": "960", "height": str(height),
-              "viewBox": f"0 0 960 {height}", "role": "img",
-              "aria-labelledby": "panel-title panel-desc"
+          height = graph_h + 242
+          cells = [e for e in snake.iter() if "c" in e.get("class", "").split()]
+          active = sum(len(e.get("class", "").split()) > 1 for e in cells)
+          panel = ET.Element(tag("svg"), {
+              "width":"960", "height":str(height), "viewBox":f"0 0 960 {height}",
+              "role":"img", "aria-labelledby":"panel-title panel-desc"
           })
-          def add(tag, attrs=None, text=None):
-              el = ET.SubElement(panel, "{" + ns + "}" + tag, attrs or {})
+          def add(name, attrs=None, text=None, parent=None):
+              el = ET.SubElement(panel if parent is None else parent, tag(name), attrs or {})
               if text is not None:
                   el.text = text
               return el
-          add("title", {"id": "panel-title"}, "Contribution activity — neon snake")
-          add("desc", {"id": "panel-desc"}, "Animated snake traversing Waqar Ali's GitHub contribution calendar. Refreshed daily.")
-          add("rect", {"x":"1", "y":"1", "width":"958", "height":str(height-2),
-                       "rx":"18", "fill":"#07121e", "stroke":"#29485c"})
-          add("text", {"x":"27", "y":"29", "fill":"#47efb5", "font-size":"11",
-                       "letter-spacing":"3", "font-family":"monospace"}, "ACTIVITY / CONTRIBUTION SIGNAL")
-          add("text", {"x":"25", "y":"60", "fill":"#edf7ff", "font-size":"25",
-                       "font-weight":"700", "font-family":"Arial,sans-serif"}, "One contribution at a time.")
-          snake.set("x", "24")
-          snake.set("y", "78")
-          snake.set("width", "912")
-          snake.set("height", str(graph_h))
+          add("title", {"id":"panel-title"}, "Contribution Snake — arcade replay")
+          add("desc", {"id":"panel-desc"}, "An arcade-style animated snake follows real GitHub contributions. " + str(active) + " active days in the generated calendar. Automatic replay, not an interactive game.")
+          defs = add("defs")
+          for ident, first, last in [("cabinet","#112b40","#030914"), ("snake-body","#b7f6ff","#1598e1"), ("screen","#030a12","#0b1c25")]:
+              grad = add("linearGradient", {"id":ident, "x2":"0.8", "y2":"1"}, parent=defs)
+              add("stop", {"stop-color":first}, parent=grad)
+              add("stop", {"offset":"1","stop-color":last}, parent=grad)
+          pattern = add("pattern", {"id":"scanlines","width":"4","height":"4","patternUnits":"userSpaceOnUse"}, parent=defs)
+          add("path", {"d":"M0 1H4","stroke":"#000","stroke-opacity":".12"}, parent=pattern)
+          add("style", text=".s{fill:url(#snake-body);stroke:#b5f4ff;stroke-width:.5px}.c{stroke:#2a5149;stroke-width:.7px}.lamp{animation:lamp 2s ease-in-out infinite}@keyframes lamp{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){.s,.c,.u,.lamp{animation:none!important}}")
+          add("rect", {"x":"4","y":"8","width":"952","height":str(height-9),"rx":"22","fill":"#010409"})
+          add("rect", {"x":"1","y":"1","width":"958","height":str(height-10),"rx":"21","fill":"url(#cabinet)","stroke":"#36566f"})
+          add("path", {"d":"M24 2H936","stroke":"#65cfff","stroke-opacity":".65"})
+          def text(x,y,value,size=12,color="#8caec6",weight="400",anchor="start"):
+              return add("text", {"x":str(x),"y":str(y),"font-family":"Consolas,monospace","font-size":str(size),"fill":color,"font-weight":weight,"text-anchor":anchor},value)
+          text(28,32,"WAQAR / GITHUB ARCADE",11,"#47efb5")
+          text(27,71,"CONTRIBUTION SNAKE",29,"#eef9ff","700")
+          add("circle", {"cx":"815","cy":"28","r":"4","fill":"#47efb5","class":"lamp"})
+          text(830,32,"AUTO REPLAY",11,"#47efb5")
+          for x,label,value,color in [(28,"ACTIVE DAYS",str(active).zfill(3),"#47efb5"),(220,"CALENDAR CELLS",str(len(cells)),"#65cfff"),(439,"DATA SOURCE","GITHUB","#b4a5ff"),(691,"MODE","CONTRIBUTION REPLAY","#8ce6db")]:
+              add("rect", {"x":str(x),"y":"88","width":"174" if x<439 else "232","height":"48","rx":"8","fill":"#06121e","stroke":"#28485d"})
+              text(x+13,104,label,8)
+              text(x+13,124,value,14,color,"700")
+          add("rect", {"x":"16","y":"148","width":"928","height":str(graph_h+30),"rx":"12","fill":"#010608","stroke":"#386c6b","stroke-width":"2"})
+          add("rect", {"x":"20","y":"152","width":"920","height":str(graph_h+22),"rx":"10","fill":"url(#screen)"})
+          # Give each segment a rounded, dimensional body. The head and its eyes
+          # share the generator's exact movement animation.
+          head = next(e for e in list(snake) if e.get("class") == "s s0")
+          position = list(snake).index(head)
+          snake.remove(head)
+          group = ET.Element(tag("g"), {"class":"s s0"})
+          head.attrib.pop("class")
+          head.set("fill","url(#snake-body)")
+          group.append(head)
+          for x in ("4.3","10.2"):
+              add("circle", {"cx":x,"cy":"5.0","r":"2.1","fill":"#f6ffff","stroke":"none"}, parent=group)
+              add("circle", {"cx":x,"cy":"4.6","r":"1.0","fill":"#022335","stroke":"none"}, parent=group)
+          add("path", {"d":"M5 11Q8 13 11 11","fill":"none","stroke":"#075171","stroke-width":".8"}, parent=group)
+          # Draw the head above the tail.
+          snake.append(group)
+          snake.set("x","24")
+          snake.set("y","163")
+          snake.set("width","912")
+          snake.set("height",str(graph_h))
           panel.append(snake)
-          add("text", {"x":"27", "y":str(height-20), "fill":"#8eafc6", "font-size":"10",
-                       "font-family":"monospace"}, "GITHUB CONTRIBUTIONS / UPDATED " + datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d UTC"))
+          add("rect", {"x":"20","y":"152","width":"920","height":str(graph_h+22),"rx":"10","fill":"url(#scanlines)","pointer-events":"none"})
+          text(28,height-37,"COLLECT ACTIVITY  /  FOLLOW THE TRAIL  /  REPEAT",11,"#65cfff")
+          text(28,height-18,"REAL CONTRIBUTION DATA · REFRESHED DAILY · ANIMATED REPLAY",8)
+          text(930,height-18,datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d UTC"),9,anchor="end")
           data = ET.tostring(panel, encoding="utf-8", xml_declaration=True)
           endpoint = "https://api.github.com/repos/" + os.environ["GH_REPOSITORY"] + "/contents/assets/contribution-snake.svg"
           headers = {"Authorization":"Bearer " + os.environ["GH_TOKEN"],
