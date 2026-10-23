@@ -88,12 +88,12 @@ Three projects to explore first. Each connects a backend with a dedicated interf
 <td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/github-profile.svg" width="100%" alt="GitHub Profile — open repository" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Pakistan-Patriotic-Youth-PPY-Membership-Management-System"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/repo-1426765208.svg" width="100%" alt="Pakistan Patriotic Youth… — open repository" /></a></td>
-<td width="50%"></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Pakistan-Patriotic-Youth-PPY-Membership-Management-System_Backend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/repo-1430689570.svg" width="100%" alt="Pakistan Patriotic Youth… — open repository" /></a></td>
+<td width="50%"><a href="https://github.com/waqaralisoomro915-cloud/Pakistan-Patriotic-Youth-PPY-Membership-Management-System_Frontend"><img src="https://raw.githubusercontent.com/waqaralisoomro915-cloud/waqaralisoomro915-cloud/main/assets/cards/repo-1426765208.svg" width="100%" alt="Pakistan Patriotic Youth… — open repository" /></a></td>
 </tr>
 </table>
 
-<sub>21 public repositories · refreshed daily</sub>
+<sub>22 public repositories · refreshed daily</sub>
 <!-- REPOSITORY-CARDS:END -->
 
 [All repositories](https://github.com/waqaralisoomro915-cloud?tab=repositories)
